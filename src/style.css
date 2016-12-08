@@ -1,0 +1,227 @@
+html,
+body {
+  width: 100%;
+  background-color: #bfeaf7;
+}
+body {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 8px;
+}
+body .webpage {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-top: 100px;
+  width: 600px;
+  height: 420px;
+  background-color: #ebf3fe;
+  z-index: 1;
+}
+body .webpage .top-button-left,
+body .webpage .top-button-middle,
+body .webpage .top-button-right {
+  position: absolute;
+  top: 2%;
+  border-radius: 50%;
+  width: 3.5%;
+  height: 5%;
+  background-color: #818d98;
+}
+body .webpage .top-button-left {
+  left: 3%;
+}
+body .webpage .top-button-middle {
+  left: 7%;
+}
+body .webpage .top-button-right {
+  left: 11%;
+}
+body .webpage .bar {
+  position: absolute;
+  width: 100%;
+  background-color: #26b56f;
+  top: 10%;
+  height: 3%;
+}
+body .webpage .box-top-left,
+body .webpage .box-top-right,
+body .webpage .box-bottom-left,
+body .webpage .box-bottom-right {
+  position: absolute;
+  width: 40%;
+  height: 35%;
+}
+body .webpage .box-top-left {
+  top: 18%;
+  left: 8%;
+  background-color: #7c90cf;
+}
+body .webpage .box-top-right {
+  top: 18%;
+  right: 8%;
+  background-color: #f9cb49;
+}
+body .webpage .box-bottom-left {
+  bottom: 8%;
+  left: 8%;
+  background-color: #f1536a;
+}
+body .webpage .box-bottom-right {
+  bottom: 8%;
+  right: 8%;
+  background-color: #31abf9;
+}
+body .webpage .shirt {
+  position: absolute;
+  bottom: -20%;
+  left: -15%;
+  width: 55%;
+  height: 40%;
+  background: #113234;
+  -webkit-border-top-left-radius: 100px;
+  -moz-border-top-left-radius: 100px;
+  border-top-left-radius: 100px;
+  -webkit-border-top-right-radius: 100px;
+  -moz-border-top-right-radius: 100px;
+  border-top-right-radius: 100px;
+}
+body .webpage .shirt .rod {
+  position: absolute;
+  top: -20%;
+  width: 75%;
+  height: 25%;
+  left: 12.5%;
+  background: #b3b3b3;
+}
+body .webpage .shirt .rod .rod-end-left,
+body .webpage .shirt .rod .rod-end-right {
+  background: #b3b3b3;
+  height: 120%;
+  width: 20%;
+}
+body .webpage .shirt .rod .rod-end-left {
+  position: absolute;
+  left: -10%;
+  top: -10%;
+}
+body .webpage .shirt .rod .rod-end-right {
+  position: absolute;
+  right: -10%;
+  top: -10%;
+}
+body .webpage .shirt .head {
+  position: absolute;
+  height: 120%;
+  top: -90%;
+  left: 20%;
+  width: 60%;
+  background: #7fcb85;
+  -webkit-border-bottom-left-radius: 100px;
+  -moz-border-bottom-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  -webkit-border-bottom-right-radius: 100px;
+  -moz-border-bottom-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+}
+body .webpage .shirt .head .hair {
+  position: absolute;
+  top: -20%;
+  width: 100%;
+  height: 23%;
+  background: #404040;
+  -webkit-border-top-left-radius: 20px;
+  -moz-border-top-left-radius: 20px;
+  border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-top-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
+body .webpage .shirt .head .hair .cut-one,
+body .webpage .shirt .head .hair .cut-two,
+body .webpage .shirt .head .hair .cut-three,
+body .webpage .shirt .head .hair .cut-four {
+  position: absolute;
+  background: #7fcb85;
+  width: 10%;
+  height: 50%;
+  bottom: -10%;
+  -webkit-clip-path: polygon(50% 21%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 21%, 0% 100%, 100% 100%);
+}
+body .webpage .shirt .head .hair .cut-one {
+  left: 5%;
+}
+body .webpage .shirt .head .hair .cut-two {
+  left: 30%;
+}
+body .webpage .shirt .head .hair .cut-three {
+  left: 55%;
+}
+body .webpage .shirt .head .hair .cut-four {
+  height: 80%;
+  left: 80%;
+}
+body .webpage .shirt .head .eye-back-left,
+body .webpage .shirt .head .eye-back-right {
+  position: absolute;
+  width: 21%;
+  height: 20%;
+  background: #fff;
+  border-radius: 50%;
+  top: 20%;
+  border: 4px solid #404040;
+}
+body .webpage .shirt .head .eye-back-left {
+  left: 20%;
+}
+body .webpage .shirt .head .eye-back-right {
+  right: 20%;
+}
+body .webpage .shirt .head .mouth {
+  position: absolute;
+  background: #404040;
+  border-radius: 15px;
+  width: 60%;
+  height: 25%;
+  bottom: 18%;
+  left: 20%;
+}
+body .webpage .shirt .head .mouth .tooth-one,
+body .webpage .shirt .head .mouth .tooth-two,
+body .webpage .shirt .head .mouth .tooth-three,
+body .webpage .shirt .head .mouth .tooth-four,
+body .webpage .shirt .head .mouth .tooth-five,
+body .webpage .shirt .head .mouth .tooth-six {
+  background: #fff;
+  position: absolute;
+  width: 23%;
+  height: 45%;
+  border-radius: 5px;
+}
+body .webpage .shirt .head .mouth .tooth-one {
+  top: 1%;
+  left: 10%;
+}
+body .webpage .shirt .head .mouth .tooth-two {
+  bottom: 1%;
+  left: 9%;
+}
+body .webpage .shirt .head .mouth .tooth-three {
+  top: 1%;
+  left: 38%;
+}
+body .webpage .shirt .head .mouth .tooth-four {
+  bottom: 1%;
+  left: 39%;
+}
+body .webpage .shirt .head .mouth .tooth-five {
+  top: 1%;
+  left: 65%;
+}
+body .webpage .shirt .head .mouth .tooth-six {
+  bottom: 1%;
+  left: 67%;
+}
