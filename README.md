@@ -1,6 +1,9 @@
 # stylus-demo
+
 a demo about stylus
-![样式图](http://c.hiphotos.baidu.com/image/pic/item/b21c8701a18b87d60d9e7c020e0828381e30fdcb.jpg)
+
+
+![样式图](http://a.hiphotos.baidu.com/image/w%3D310/sign=08fe18ae6c380cd7e61ea4ec9145ad14/ae51f3deb48f8c542c6e223133292df5e0fe7f6b.jpg)
 ## 主要知识点
 
 ### 绝对定位和相对定位
